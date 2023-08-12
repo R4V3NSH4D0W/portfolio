@@ -1,0 +1,61 @@
+/* Adjust this styling to match your design */
+.contact__container {
+    margin-top: 40px;
+  }
+  
+  .contact__form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contact__input-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact__label {
+    display: block;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 8px;
+  }
+  
+  .contact__input,
+  .contact__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .contact__textarea {
+    resize: none;
+    min-height: 120px;
+  }
+  
+  .contact__submit-button {
+    background-color: var(--title-color);
+    color: var(--container-color);
+    border: none;
+    border-radius: 1rem;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    padding: 10px 20px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact__submit-button:hover {
+    background-color: var(--title-color-dark);
+   
+  }
+  
+  @media (max-width: 768px) {
+    .contact__form {
+      padding: 15px;
+    }
+  }
+  
