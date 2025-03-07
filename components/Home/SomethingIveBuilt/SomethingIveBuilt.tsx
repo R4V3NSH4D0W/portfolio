@@ -200,7 +200,7 @@ export default function SomethingIveBuilt() {
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    AniStream
+                    Travel Ideas
                   </span>
                 </a>
               </div>
