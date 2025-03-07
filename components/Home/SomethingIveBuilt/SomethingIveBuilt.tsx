@@ -5,6 +5,7 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
 import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
+import Image from "next/image";
 
 export default function SomethingIveBuilt() {
   const router = useRouter();
@@ -139,20 +140,17 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-
-        {/* // ?  Project  0*/}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
         >
-          {/* Left image */}
           <div
             className="hidden bg-AAprimary z-10  py-4 
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href={"https://github.com/R4V3NSH4D0W/Travel-Ideas-AI"}
+                href="https://github.com/R4V3NSH4D0W/Travel-Ideas-AI"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -161,10 +159,12 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img
-                src={"/travelideas.png"}
-                alt={"Project Screen shot"}
-                className={` w-[35rem] `}
+              <Image
+                src="/travel.png"
+                alt="Project Screenshot"
+                width={600}
+                height={520}
+                unoptimized
               />
             </div>
           </div>
@@ -176,10 +176,12 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img
-                  src={"/travelideas.png"}
-                  alt={"Project Screen shot"}
-                  className={` w-[30rem] h-[20rem] `}
+                <Image
+                  src="/travel.png"
+                  alt="Project Screenshot"
+                  width={350}
+                  height={350}
+                  unoptimized
                 />
               </div>
             </div>
@@ -198,7 +200,7 @@ export default function SomethingIveBuilt() {
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Travel Ideas AI
+                    AniStream
                   </span>
                 </a>
               </div>
@@ -235,7 +237,7 @@ export default function SomethingIveBuilt() {
 
               <div className="z-10 flex fle-row space-x-5 ">
                 <a
-                  href="https://github.com/R4V3NSH4D0W/Travel-Ideas-AI"
+                  href="https://anistream.solvryn.me/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -245,6 +247,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
+
         {/* // ?  Project  1*/}
         <div
           data-aos="fade-up"
@@ -256,14 +259,6 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
-
               <a
                 href="https://artgallery.lenishmagar.me"
                 target={"_blank"}
